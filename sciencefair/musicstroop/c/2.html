@@ -1,0 +1,23 @@
+<HTML>
+<HEAD><TITLE>Get Ready...</TITLE>
+<BODY onload="start()"><hr><p> <center>
+
+</BODY>
+<script>
+
+function wait(ms)
+{
+    var d = new Date();
+    var d2 = null;
+    do { d2 = new Date(); }
+    while(d2-d < ms);
+}
+
+function start() {
+wait(4000)
+window.location.replace("set2.html");
+
+}
+
+</script>
+</HTML>
