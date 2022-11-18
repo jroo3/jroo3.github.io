@@ -1,0 +1,126 @@
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-x61c{border-color:inherit;font-size:28px;font-weight:bold;text-align:center;vertical-align:top}
+.dd {
+  font-size: 175;
+  font-family: DejaVu Sans Mono, monospace;
+}
+</style>
+
+
+<body onload="startIt();">
+<center>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1>
+<a href="https://jroo3.github.io/sciencefair/memory/">
+<p class="dd" id="ggg"></p>
+</a>
+</h1>
+<p>&nbsp;</p>
+<table class="tg" id="tg">
+<thead>
+  <tr>
+    <th class="tg-x61c">GOOD</th>
+    <th class="tg-x61c">EXIT</th>
+    <th class="tg-x61c">ROLE</th>
+    <th class="tg-x61c">HAPPY</th>
+    <th class="tg-x61c">FOLLOW</th>
+    <th class="tg-x61c">HEALTHY</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-x61c">CARED</td>
+    <td class="tg-x61c">ASK</td>
+    <td class="tg-x61c">SWEEP</td>
+    <td class="tg-x61c">BABY</td>
+    <td class="tg-x61c">JEWEL</td>
+    <td class="tg-x61c">PRIZE</td>
+  </tr>
+  <tr>
+    <td class="tg-x61c">GOD</td>
+    <td class="tg-x61c">ORAL</td>
+    <td class="tg-x61c">WISH</td>
+    <td class="tg-x61c">MIND</td>
+    <td class="tg-x61c">HIDE</td>
+    <td class="tg-x61c">NIGHT</td>
+  </tr>
+  <tr>
+    <td class="tg-x61c">SHOP</td>
+    <td class="tg-x61c">CRYING</td>
+    <td class="tg-x61c">BATHTUB</td>
+    <td class="tg-x61c">FLOOR</td>
+    <td class="tg-x61c">BATHROOM</td>
+    <td class="tg-x61c">PRICE</td>
+  </tr>
+  <tr>
+    <td class="tg-x61c">LAMB</td>
+    <td class="tg-x61c">UNAFECTED</td>
+    <td class="tg-x61c">PAPER</td>
+    <td class="tg-x61c">GUESS</td>
+    <td class="tg-x61c">JET</td>
+    <td class="tg-x61c">WAIT</td>
+  </tr>
+</tbody>
+</table>
+
+
+</body>
+
+<script>
+
+function startIt() {
+// var myWindow = window.open("s.mp3", "", "width=1,height=1");
+
+var timeLeft = 5;
+var timerId = setInterval(countdown, 1000);
+
+function countdown() {
+    if (timeLeft == -1) {
+        clearTimeout(timerId);
+        doSomething();
+    } else {
+        timeLeft--;
+    }
+}
+
+function doSomething() {
+    document.getElementById('tg').innerHTML = '';
+    document.getElementById('ggg').innerHTML = 'BACK TO START';
+    window.open("https://jroo3.github.io/sciencefair/memory/write.png");
+    newTimer();
+}
+
+
+}
+
+function newTimer() {
+var timeLeft = 5;
+var timerId = setInterval(countdown, 1000);
+
+function countdown() {
+    if (timeLeft == -1) {
+        clearTimeout(timerId);
+        finish();
+    } else {
+        timeLeft--;
+    }
+}
+
+}
+
+function finish() {
+    window.open("https://jroo3.github.io/sciencefair/memory/time.png");
+}
+
+
+
+
+
+</script>
